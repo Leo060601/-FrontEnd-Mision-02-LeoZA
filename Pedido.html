@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria ZUAL</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <h1>Datos de Contacto</h1>
+            <h2>Dirección</h2>
+            <p>
+                Av. Mexico Japón #135 <br>
+                Salamanca,Gto
+            </p>
+            <h2>Telefono</h2>
+                <p>
+                    464-688-1020
+                </p>
+            <h2>Horario</h2>
+                <p>
+                    Lunes a Viernes de: 8:00 am-19:00 pm
+                    Sabados de: 8:00 am -1:00 pm
+                    Domingos: Cerrados
+                </p>
+            <p>Por favor capture la información del pedido en el formulario siguiente.</p>
+            <!--
+                <form action='captura.html' method="get">
+            -->
+            <form method="get">
+                <table>
+                    <tr>
+                        <td colspan='2'><h2>Datos generales</h2></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type='text' id='Nombre' name='Nombre' required></td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos:</td>
+                        <td><input type='text' id='Apellidos' name='Apellidos'></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'><h2>Datos de contacto</h2></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono:</td>
+                        <td><input type='text' id='Telefono' name='Telefono'></td>
+                    </tr>
+                    <tr>
+                        <td>Correo electrónico:</td>
+                        <td><input type='email' id='Email' name='Email'></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'><hr></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'><h2 class="Titulo2">Comentarios</h2></td>
+                    </tr>
+                    <tr>
+                        <td>Detalles del pedido:</td>
+                        <td><input type='text' id='Comentarios' name='Comentarios' required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style='text-align: right;'>
+                            <input type='reset' value='Limpiar campos'>
+                            <input type='submit' value='Enviar'>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <link rel="stylesheet" href="../HTML/Index.html">
+</body>
